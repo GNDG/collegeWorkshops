@@ -12,7 +12,6 @@ ans. Data Scraping can be used in various places like the websites that compare 
 
 4. Scraping and Python(libraries and frameworks)
 
-ans. 
 
 5. Introduction to BeautifulSoup
 
@@ -26,4 +25,5 @@ ans.
 
 10. What can be further done with the data?
 
-11. How to proceed after this?
+ans. The data can be used for a comaring website or a data set for Data Analysis to predict the future output.
+
