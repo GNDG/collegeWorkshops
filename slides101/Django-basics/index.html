@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+		<title>Django-Basics</title>
+
+        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <body background="django.jpg">
+                    <h1>Django Basics</h1>
+                    <p>
+                        <small>Contributors </small><br>
+                        <small><a href="http://rishabhsingh.com">Rishabh Singh</a> / <a href="http://twitter.com/stalwart201">@stalwart201</a></small><br>
+
+                        <small><a>Shashank Aryan</a> / <a href="http://twitter.com/arlok31">@arlok31</a></small><br>
+                        
+                        <small><a >Shweta Suman</a> / <a href="http://twitter.com/cosmologist10">@cosmologist10</a></small><br>
+                        
+                        <small><a>Mannu Gupta</a> / <a href="http://twitter.com/abhi9898">@theparadoxer02</a></small><br>
+                        <small><a href="http://shanky.xyz">Shashank Kumar</a> / <a href="http://twitter.com/realslimshanky">@realslimshanky</a></small><br>
+
+                        <small><a>Shivam Sharma</a> / <a href="http://twitter.com/shivams334">@shivams334</a></small><br>
+
+                    </p>
+                </section>
+
+                <section>
+                    <h2>What is Django?</h2>
+
+                </section>
+                
+                <section>   
+
+                    <h1>Why Django</h1>
+                    <p>
+                    <ul>
+                        <li class="fragment">Ridiculously fast</li> 
+                        <li class="fragment">Fully loaded</li> 
+                        <li class="fragment">Reassuringly secure</li> 
+                        <li class="fragment">Exceedingly scalable</li>
+                        <li class="fragment">Incredibly versatile</li>
+                    </ul>
+
+                    </p>
+					
+				</section>
+
+
+				<section>
+					<h2>what is Framework?</h2>
+                    <p>
+                    <ul>
+                        <li class="fragment">A web framework (WF) or web application framework (WAF) is a software that is designed to support the development of web applications</li>
+                        <li class="fragment">It includes web services, web resources and web APIs. Web frameworks aim to alleviate the overhead associated with common activities performed in web development</li>
+                    </ul>
+
+                    </p>
+                    
+                </section>
+				<section>
+                	<h2>Types of Framework</h2>
+                	<p>
+					<ul>
+					    <li class="fragment">Oracle Application Development Framework</li> 
+                        <li class="fragment">Financial modeling applications</li> 
+                        <li class="fragment">Earth system modeling applications</li>
+                        <li class="fragment">Decision support systems</li>
+                        <li class="fragment">Multimedia framework - Media playback and authoring</li>
+                        <li class="fragment">Ajax framework / JavaScript framework</li>
+                        <li class="fragment">Web framework</li>
+                        <li class="fragment">Application framework - General GUI applications</li>
+                        <li class="fragment">Middleware</li>
+                        <li class="fragment">Cactus Framework - High performance scientific computing</li>
+                        <li class="fragment">Enterprise Architecture framework</li>
+                        
+                    </ul>
+                    </p>
+                    
+                </section>
+
+                <section>
+                	<h2>Various other Web frameworks on Python.</h2>
+                	<p>
+					<ul>
+					    <li class="fragment">Flask</li>
+                        <li class="fragment">Bottle</li> 
+                        <li class="fragment">Zope</li> 
+                        <li class="fragment">Pyramid</li>
+                        <li class="fragment">CubicWeb</li>
+                        <li class="fragment">Web.py</li> 
+                        <li class="fragment">Web2.py</li> 
+                    </ul>
+
+                    </p>
+                	
+                </section>
+
+                <section>
+					<h2>Installing Django</h2>
+					<p>
+					<ul>
+					    <li class="fragment">Install pip</li> 
+					    <li class="fragment">Install Django via pip</li> 
+					     
+					</ul> 
+                    </p>
+                </section>
+
+                <section>
+                	<h2>Installing pip on Linux</h2>
+
+                    <p>
+                    <ul>
+                       <li class="fragment">For Fedora users:</li> 
+                    <li class="fragment"><code>
+                       $ sudo dnf install pip 
+                    </code></li>
+                    </p>
+                    <p>
+                    	<li class="fragment">For Debian users:</li> 
+
+                    <li class="fragment"><code>
+                    	$ sudo apt-get install pip 
+                    </code></li>
+                    </ul>
+                    </p>
+                </section>
+                
+                <section>
+                	<h2>Installing Django on Linux</h2>
+                    <p>
+                    <code>
+                       $ sudo pip install django 
+                    </code>
+                    </p>
+                    <h2>To check the installed version of Django on Linux</h2>
+
+                    <p>
+                    <code>
+                       $ python -m django --version 
+                    </code>
+                    </p>
+                    </section>
+
+                <section>
+                	<h2>Creating a project on Django</h2>
+                	<li class="fragment">Create a directory named Django</li>
+                	<li class="fragment">Open the path in terminal</li> 
+                    <p>
+                    <li class="fragment"><code>
+                       $ django-admin startproject mysite 
+                    </code></li>
+                    <li class="fragment">'mysite' is the name of the project</li> 
+                    </p>
+                </section>
+                <section>	
+                	<h3>Obtain repo</h3>
+                	<P>    
+                	<code>
+                	    git init
+                	</code>
+                	</P>
+                	<p>
+                	<code>
+                	    git clone "url"
+                	</code>
+                	</P>
+                </section>
+                
+                <section>
+                    <h2>Installing Django on Linux</h2>
+
+                    <p>
+                    <code>
+                       $ sudo pip install django 
+                    </code>
+                    </p>
+                    <h2>check the installed version of Django on Linux</h2>
+
+                    <p>
+                    <code>
+                       $ python -m django --version 
+                    </code>
+                    </p>
+                    </section>
+
+                <section>
+                    <h2>Creating a project on Django</h2>
+                    <li class="fragment">Create a directory named Django</li>
+                    <li class="fragment">Open the path in terminal</li> 
+                    <p>
+                    <li class="fragment"><code>
+                       $ django-admin startproject mysite 
+                    </code></li>
+                    <li class="fragment">'mysite' is the name of the project</li> 
+                    </p>
+                </section>
+                <section>
+                    <h2>Creating an app in Django Project</h2>
+                    <li class="fragment">The django project is made up of different apps</li>
+                    <li class="fragment">In Terminal change your working directory to Django Project directory</li>
+                    <li class="fragment">Type the following code</li> 
+                    <p>
+                    <li class="fragment"><code>
+                       $ python manage.py startapp 'Appname' 
+                    </code></li>
+                </section>
+                <section>
+                <h2> Urls in django </h2>
+                    <p>
+                        <li class = "fragment">A URL is simply a web address</li>
+                        <li class = "fragment">You can see a URL every time you visit a website</li>
+                        <li class = "fragment">It is visible in your browser's address bar</li>
+                        <li class = "fragment">urls.py file is made in mysite folder to link all urls</li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Views in Django</h2>
+                    <p>
+                        <li class = "fragment">A view function, or view for short, is simply a Python function that takes a Web request and returns a Web response</li>
+                        <li class = "fragment">This response can be the HTML content of a Web page, or a redirect, or a 404 error, or an XML document, or an image or anything</li>
+                    </p>
+                    </section>
+                <section>
+                <h2>What is a Template ?</h2>
+                    <p>
+                        <li class = "fragment">A template is simply a text file. It can generate any text-based format (HTML, XML, CSV, etc.)</li>
+                        <li class = "fragment">A template contains variables, which get replaced with values when the template is evaluated, and tags</li>
+                        <li class = "fragment">These tags control the logic of the template</li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Forms handling in django </h2>
+                    <p>
+                        <li class = "fragment">Display an HTML form with automatically generated form widgets (like a text field or date picker)</li>
+                        <li class = "fragment">Check submitted data against a set of validation rules</li>
+                        <li class = "fragment">Redisplay a form in case of validation errors</li>
+                        <li class = "fragment">Convert submitted form data to the relevant Python data types</li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Django admin site</h2>
+                    <p>
+                        <li class="fragment">To add, edit and delete the posts we've just modeled, we will use Django admin</li>
+                        <li class="fragment">The admin is enabled in the default project template used by startproject</li>
+                        <li class="fragment">To Register a model to the Admin</li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        from django.contrib import admin
+                    </code>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        from .models import model
+                    </code>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <code>
+                        admin.site.register(Modelame)
+                    </code>
+                    </li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Books/Blogs References</h2>
+                    <p>
+                        <li class="fragment">Below are some references you should go to get in-depth knowledge about Django</li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="https://tutorial.djangogirls.org/en/index.html">Django Girls Tutorial</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="https://github.com/twoscoops/django-twoscoops-project">Two Scoops Of Django</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://www.tangowithdjango.com/book17/">Tango With Django</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://masteringdjango.com/">Mastering Django</a>
+                    </li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Videos References</h2>
+                    <p>
+                        <li class="fragment">Below are some video series that will give you a headstart in Django</li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://bit.ly/1qOoeyW">Coding Entrepreneurs - Try Django</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://bit.ly/2cVG2BF">The New Boston - Django Tutorials for Beginners</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://bit.ly/2cCiRQX"> Sentdex - Django Web Development with Python</a>
+                    </li>
+                    </p>
+                    <p>
+                    <li class="fragment">
+                    <a href="http://bit.ly/2cVHggn">Mike Hibbert - Python Django tutorial</a>
+                    </li>
+                    </p>
+                </section>
+                <section>
+                    <h2>Thank You</h2>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
