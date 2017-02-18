@@ -25,5 +25,5 @@ ans. Data Scraping can be used in various places like the websites that compare 
 
 10. What can be further done with the data?
 
-ans. The data can be used for a comaring website or a data set for Data Analysis to predict the future output.
+ans. The data can be used for a comaring website or a data set for Data Analysis to predict the future output.You may also get the website CSS and use it in your website to get the same template.
 
