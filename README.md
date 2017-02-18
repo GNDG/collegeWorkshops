@@ -1,6 +1,4 @@
 # collegeWorkshops
-Topics which we can focus on:
-
 Python 101
 Django 101
 Web Scraping 101
