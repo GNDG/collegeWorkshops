@@ -1,4 +1,4 @@
-College List In Greater Noida
+## College List In Greater Noida
 1. G.L. Bajaj
 2. N.I.E.T
 3. G.N.I.T
