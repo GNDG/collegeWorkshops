@@ -46,27 +46,27 @@
       * Set Theory
     * Dictionary
       * Dictionary Functions - items(), keys(), values(), enumerate()
-    * Function
-      * Definition
-      * Local and Global Scope
-      * Default Argument
-      * Keyword Argument
-      * Higher Order Function
-    * File Handling
-      * File Opening - open(), with open() as
-      * File Closing - close()
-      * File Reading - read()
-      * File Writing - write()
-    * Exception Handling
-      * Keywords - try, except, finally
-      * Error Types
-        * NameError
-        * ValueError
-        * TypeError
-      * Raising Exception - raise
-    * Class
-      * Definition - class
-      * Constructor - __init__
-      * Inheritance
-      * Getting and Setting Properties
-      * Method of Class
+  * Function
+    * Definition
+    * Local and Global Scope
+    * Default Argument
+    * Keyword Argument
+    * Higher Order Function
+  * File Handling
+    * File Opening - open(), with open() as
+    * File Closing - close()
+    * File Reading - read()
+    * File Writing - write()
+  * Exception Handling
+    * Keywords - try, except, finally
+    * Error Types
+      * NameError
+      * ValueError
+      * TypeError
+    * Raising Exception - raise
+  * Class
+    * Definition - class
+    * Constructor - __init__
+    * Inheritance
+    * Getting and Setting Properties
+    * Method of Class
