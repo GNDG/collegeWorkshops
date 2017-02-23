@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>web-scraping</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+				    <body background="">
+					<h1>Web Scraping Basics</h1>
+					<p>
+						<small>Contributors </small><br>
+						<small>Snehil Verma <a href="https://twitter.com/vsnehil92">@vsnehil92</a></small>
+
+					</p>
+				</section>
+
+				<section>
+					<h2>What is scraping?</h2>
+
+				</section>
+				
+				<section>	
+
+					<h3>Why Scraping?</h3>
+					
+				</section>
+
+
+				<section>
+					<h2>Use of Scraping</h2>
+					<p>
+					<ul>
+					    <li class="fragment">Real Estate Listings gathering.</li> 
+                        <li class="fragment"> Product review scrapes.</li> 
+                        <li class="fragment">Scraping to create other websites.</li> 
+                        <li class="fragment">Getting massive amounts of data for research purposes.</li> 
+                    </ul>
+
+                    </p>
+				</section>
+
+				<section>
+                	<h2>Scraping and Python</h2>
+                    <p>
+                    <ul>
+                        <li class="fragment">Requests.</li> 
+                        <li class="fragment"> Beautiful Soup 4.</li> 
+                        <li class="fragment"> lxml.</li> 
+                        <li class="fragment">Selenium.</li>
+                        <li class="fragment">Scrapy.</li> 
+                    </ul>
+
+                    </p>
+                </section>
+                 <section>
+                    <h2>Workflow of web scraping</h2>
+                    <img src="img/workflow.jpg">
+                </section>
+                <section>
+					<h2>BEAUTIFUL SOUP</h2>
+					
+                </section>
+
+                <section>
+                	<h2>Installing Beautiful Soup</h2>
+                	<ul>
+                     <li class="fragment">pip install beautifulsoup4</li>   
+                    </ul>
+                </section>
+
+                <section>
+                	<h2>Writing basic script in Beautiful Soup</h2>
+                	
+                </section>
+
+                <section>
+                	<h2>Scrapy</h2>
+
+                    <p>
+                    <code>
+                       $ pip install Scrapy
+                    </code>
+                 </p>
+                
+                </section>
+
+                <section>
+                	<h2>Terminal commands of Scrapy</h2>
+                	<p>
+                    <ul>
+                        <li class="fragment">startproject.</li> 
+                        <li class="fragment">genspider.</li> 
+                        <li class="fragment"> settings.</li> 
+                        <li class="fragment">runspider.</li>
+                        <li class="fragment">shell.</li>
+                        <li class="fragment">fetch.</li> 
+                        <li class="fragment">view.</li>
+                        <li class="fragment">version.</li>
+                    </ul>
+
+                    </p>
+                </section>
+                <section>	
+                	<h3>Writing basic scrapy spider </h3>
+                </section>
+                <section>
+                	<h3>List of comanies that usses scraping</h3>
+                	<img src="img/list.png">
+ 				</section>
+                
+                <section>
+                <h2>Thank You</h2>
+                <h3>Any Queries?</h3>
+                </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
