@@ -11,7 +11,8 @@
     * Integer
     * Float
     * String
-      * String Manupulation - title(), lower(), upper(), islower(), isupper(), swapcase(), isalnum(), isdigit(), isalpha(), istitle(), 
+      * String Validation - islower(), isupper(), isalnum(), isdigit(), isalpha(), istitle()
+      * String Manipulation - title(), lower(), upper(), swapcase()
       * String Strip - strip(), lstrip(), rstrip()
       * String Find - find(), startswith(), endswith()
       * String Length - len()
@@ -67,6 +68,6 @@
   * Class
     * Definition - class
     * Constructor - __init__
-    * Inheritance
     * Getting and Setting Properties
+    * Inheritance
     * Method of Class
