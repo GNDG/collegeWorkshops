@@ -1,19 +1,19 @@
 ## College List In Greater Noida
-1. - [ ] G.L. Bajaj
-2. - [ ] N.I.E.T
-3. - [ ] G.N.I.T
-4. - [ ] ITS
-5. - [ ] SKYLINE
-6. - [ ] IEC
-7. - [ ] UNITED
 8. - [ ] ACCURATE
-9. - [ ] SHARDA UNIVERSITY
+16. - [ ] AMITY UNIVERSITY
+14. - [ ] BIMTECH
+18. - [ ] DRONACHARYA
 10. - [ ] GALGOTIA COLLEGE OF ENGG.
 11. - [ ] GALGOTIA UNIVERSITY
-12. - [ ] IIMT
-13. - [ ] KCC
-14. - [ ] BIMTECH
-15. - [ ] SHIV NADAR UNIVERSITY
-16. - [ ] AMITY UNIVERSITY
+1. - [ ] G.L. Bajaj
 17. - [ ] GNCT
-18. - [ ] DRONACHARYA
+3. - [ ] G.N.I.T
+6. - [ ] IEC
+12. - [ ] IIMT
+4. - [ ] ITS
+13. - [ ] KCC
+2. - [ ] N.I.E.T
+9. - [ ] SHARDA UNIVERSITY
+15. - [ ] SHIV NADAR UNIVERSITY
+5. - [ ] SKYLINE
+7. - [ ] UNITED
